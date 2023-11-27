@@ -6,8 +6,12 @@ import LandingPage from './pages/landingPage/LandingPage';
 function App() {
   return (
     <>
-      <Nav />
-      <Header />
+      <div>
+        {' '}
+        <Nav />
+        <Header />
+      </div>
+
       <LandingPage />
     </>
   );
