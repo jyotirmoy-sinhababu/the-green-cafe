@@ -5,11 +5,12 @@ import luchi from '../../assets/luchi.jpg';
 import batora from '../../assets/batora.webp';
 
 const LandingPage = () => {
+  setInterval(() => {}, 4000);
+
   return (
-    <div className='flex justify-center p-[4%] gap-[3%]'>
-      <div className='flex flex-col gap-14 '>
-        <div className='flex  gap-[3%] '>
-          {' '}
+    <div className='flex justify-center p-[3%] gap-[3%]'>
+      <div className='flex flex-col gap-[24px]'>
+        <div className='flex flex-col gap-[24px]'>
           <div className=''>
             <img className='w-[560px] ' src={milkcoffee} alt='' />
           </div>
@@ -18,7 +19,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div>
-          <img src={batora} alt='' />
+          <img className='w-[560px]' src={batora} alt='' />
         </div>
       </div>
       <div>
